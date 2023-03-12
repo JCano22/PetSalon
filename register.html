@@ -19,31 +19,63 @@
         </div>
     </header>
     <main>
-        <div class="counterDiv" id="pets">
-            <!--click event to print out # of elements-->
+        
+        <div class="inputContainer">
+            <h2 class="registration">Register Your Pet:</h2>
+            <div class="mb-3">
+                <label class="form-label">Name: </label>
+                <input type="text" class="form-control" id="txtName">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Age: </label>
+                <input type="number" class="form-control" id="txtAge" min="0" max="100">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Gender: </label>
+                <select class="form-control" id="txtGender">
+                    <option disabled selected></option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="N/A">Prefer not to say</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Service: </label>
+                <select id="txtService" class="form-control">
+                    <option value="" disabled selected></option>
+                    <option value="Grooming">Grooming</option>
+                    <option value="Nails">Nails</option>
+                    <option value="Pampering">Pampering</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Owner's Name: </label>
+                <input type="text" class="form-control" id="txtOwner">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Phone Number: </label>
+                <input type="number" class="form-control" id="txtPhone">
+            </div>
+
+            <button class="btn submitBtn" onclick="register()">Submit</button>
+
         </div>
-        <h3>Click below to meet our pets!</h3>
-        <button class="btn" id="yes" onclick="displayInfo()">Click Here!</button>
         
-        
-        <div class="info" id="info">
-            <div class="dogInfo" id="guests1">
-                
-            </div>
-            <div class="dogInfo" id="guests2">
-                
-            </div>
-            <div class="dogInfo" id="guests3">
-                
-            </div>
     </div>
     </main>
+
     <footer>
         <div id="information">
 
         </div>
     </footer>
     <script src="Script/register.js"></script>
+
     <script src="Script/displayInfo.js"></script>
 </body>
 </html>

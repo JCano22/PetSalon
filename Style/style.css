@@ -11,7 +11,6 @@
     letter-spacing: 2px;
 }
 body{
-    margin: 5px;
     background-color: var(--body);
     font-family: 'Jost', sans-serif;
 }
@@ -40,9 +39,23 @@ a{
 main{
     width: 70%;
     background-color: var(--container);
-    height: 600px;
+    min-height: 600px;
     margin: auto;
 }
+.inputContainer{
+    width: 40%;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+}
+.mb-3{
+    display: flex;
+    justify-content: space-between;
+    margin: 7px auto;
+
+}
+
+/*Counter Div*/
 .counterDiv{
     text-align: center;
     padding: 15px;
@@ -52,8 +65,7 @@ main h3{
     margin: 25px;
 }
 .btn{
-    position: relative;
-    left: 460px;
+    
     background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #7DB9B6 100%);
     border: 0;
     border-radius: 6px;
@@ -64,17 +76,30 @@ main h3{
     padding-right: 16px;
     font-size: 18px;
 }
+.submitBtn{
+    margin: 25px;
+}
+/*index.html*/
+.displayCont{
+    padding: 20px;
+    text-align: center;
+}
+.displayBtnCont{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
 .info{
     margin: auto;
     width: 100%;
-    display: inline-flex;
+    display: inline-block;
     flex-direction: row;
     justify-content: space-between;
-    position: relative;
-    top: 75px;
+    
 }
 .dogInfo{
     width:30%;
+    margin: 25px;
     list-style-position: inside;
     text-align: center;
 }
