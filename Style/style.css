@@ -42,18 +42,24 @@ main{
     min-height: 600px;
     margin: auto;
 }
+
+/*registration*/
 .inputContainer{
     width: 40%;
     margin: auto;
     padding: 25px;
     text-align: center;
 }
+.registration{
+    margin: 10px;
+}
 .mb-3{
     display: flex;
     justify-content: space-between;
-    margin: 7px auto;
+    margin: 9px auto;
 
 }
+
 
 /*Counter Div*/
 .counterDiv{
@@ -92,14 +98,45 @@ main h3{
 .info{
     margin: auto;
     width: 100%;
-    display: inline-block;
+    display: inline-flex;
     flex-direction: row;
-    justify-content: space-between;
-    
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.dogInfo{
-    width:30%;
+.pet{
+    width:25%;
     margin: 25px;
     list-style-position: inside;
     text-align: center;
+}
+
+/*about*/
+.about-main{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+#location{
+    width: 45%;
+    text-align: center;
+    height: 100%;
+    margin-top: 50px;
+    border-right: 1px solid var(--header-color);
+    position: relative;
+}
+.aboutP{
+    width: 70%;
+    margin: auto;
+}
+.google-map{
+    margin: 25px;
+    position: relative;
+    
+}
+#hoursOfOperation{
+    width: 45%;
+    text-align: center;
+    
 }
