@@ -110,6 +110,55 @@ main h3{
     text-align: center;
 }
 
+
+/*services*/
+.servicesCont{
+    text-align: center;
+    
+}
+.servicesTitle{
+    padding: 15px;
+    font-size: 48px;
+}
+.servicesCont2{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.innerCont{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.nailCont{
+    flex-direction: row-reverse;
+}
+.innerTitle{
+    width: 50%;
+
+}
+.innerTitle h3{
+    font-size: 24px;
+}
+.innerTitle h3:hover{
+    font-size: 34px;
+    text-decoration: underline;
+}
+.serviceImg{
+    width: 50%;
+    overflow: hidden;
+    
+}
+.serviceImg img{
+    object-fit:fill;
+}
+
+
+
 /*about*/
 .about-main{
     display: inline-flex;
