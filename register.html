@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/31c6079382.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
 </head>
 <body>
     <header>
@@ -64,16 +66,36 @@
                 <input type="number" class="form-control" id="txtPhone">
             </div>
 
+            <div class="mb-3">
+                <label class="form-label">Is your pet dog friendly? </label>
+                <input type="radio" name="petFriend" class="form-control" id="friendly" value="Yes">Yes</input>
+                <input type="radio" name="petFriend" class="form-control" id="friendly" value="No">No</input>
+            </div>
+
             <button class="btn submitBtn" onclick="register()">Submit</button>
 
             
 
         </div>
-        <div id="counter">
+        <div class="counterClass" id="counter">
 
         </div>
         
         <div id="pets" class="info">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Service</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tableBody">
+
+                </tbody>
+            </table>
 
         </div>
         
