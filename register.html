@@ -10,33 +10,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Pacifico&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/31c6079382.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    
+    
 </head>
 <body>
     <header>
-        <h2 class="title">The Fashion Pet</h2>
-        <nav class="menu-bar">
-            <a href="index.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="register.html" id="address">Registration</a>
-            <a href="about.html" id="hours">About</a>
-        </nav>
+            <h2 class="title">The Fashion Pet</h2>
+            <nav class="menu-bar navbar">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="register.html" id="address">Registration</a>
+                <a href="about.html" id="hours">About</a>
+            </nav>
+        
     </header>
     <main>
         
         <div class="inputContainer">
             <h2 class="registration">Register Your Pet:</h2>
-            <div class="mb-3">
+            <div class="input-3">
                 <label class="form-label">Name: </label>
                 <input type="text" class="form-control" id="txtName">
             </div>
 
-            <div class="mb-3">
+            <div class="input-3">
                 <label class="form-label">Age: </label>
                 <input type="number" class="form-control" id="txtAge" min="0" max="100">
             </div>
 
-            <div class="mb-3">
+            <div class="input-3">
                 <label class="form-label">Gender: </label>
                 <select class="form-control" id="txtGender">
                     <option disabled selected></option>
@@ -46,7 +48,7 @@
                 </select>
             </div>
 
-            <div class="mb-3">
+            <div class="input-3">
                 <label class="form-label">Service: </label>
                 <select id="txtService" class="form-control">
                     <option value="" disabled selected></option>
@@ -56,17 +58,17 @@
                 </select>
             </div>
 
-            <div class="mb-3">
+            <div class="input-3">
                 <label class="form-label">Owner's Name: </label>
                 <input type="text" class="form-control" id="txtOwner">
             </div>
 
-            <div class="mb-3">
+            <div class="input-3">
                 <label class="form-label">Phone Number: </label>
                 <input type="number" class="form-control" id="txtPhone">
             </div>
 
-            <div class="mb-3">
+            <div class="input-3">
                 <label class="form-label">Is your pet dog friendly? </label>
                 <input type="radio" name="petFriend" class="form-control" id="friendly" value="Yes">Yes</input>
                 <input type="radio" name="petFriend" class="form-control" id="friendly" value="No">No</input>
@@ -108,7 +110,7 @@
         </div>
     </footer>
     <script src="Script/register.js"></script>
-
     <script src="Script/displayPets.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
 </body>
 </html>

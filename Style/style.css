@@ -13,6 +13,7 @@
 body{
     background-color: var(--body);
     font-family: 'Jost', sans-serif;
+
 }
 
 /*header*/
@@ -31,22 +32,23 @@ header{
     color: white;
     font-size: 32px;
     margin: 0;
+    
 }
 a{
     color: white;
     margin-left: 15px;
     font-size: 23px;
     transition: color .2s;
-}
+} 
 a:hover{
     color: var(--container);
-
 }
 main{
     width: 70%;
     background-color: var(--container);
     min-height: 600px;
-    margin: auto;
+    margin: 0 auto 10px;
+    
 }
 
 /*Index*/
@@ -88,8 +90,10 @@ main{
 }
 .registration{
     margin: 10px;
+    font-size: 42px;
+    padding: 20px;
 }
-.mb-3{
+.input-3{
     display: flex;
     justify-content: space-between;
     margin: 9px auto;
@@ -133,6 +137,7 @@ main{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 .pet{
     width:25%;
