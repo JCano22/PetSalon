@@ -91,13 +91,26 @@ main{
 .registration{
     margin: 10px;
     font-size: 42px;
-    padding: 20px;
+    padding: 10px;
 }
+
 .input-3{
     display: flex;
     justify-content: space-between;
     margin: 9px auto;
 
+}
+.error{
+    border: 2px solid red;
+    background-color: #f8bbad!important;
+    color: red !important;
+}
+.hide{
+    display: none;
+}
+.success{
+    color: rgb(16, 83, 16)!important;
+    background-color: var(--body)!important;
 }
 
 
